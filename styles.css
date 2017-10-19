@@ -1,0 +1,794 @@
+body {
+      font-family: Calibri;
+      padding: 0;
+      margin: 0;
+}
+
+.clearfix::before {
+      content: '';
+      display: table;
+}
+
+.clearfix::after {
+      content: '';
+      display: table;
+      clear: both;
+}
+    
+div {
+      box-sizing: border-box;
+}  
+
+header {
+      background-color: #111111;
+      height: 35px;
+      
+ }
+      
+ 
+.container {
+    width: 85%;
+    margin: 0 auto;
+}     
+
+header nav {
+	float: right;
+	padding-top: 7px;
+	padding-right: 1px;
+
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+
+}
+.menu li {
+	float: left;
+	display: block;
+}
+ header .menu li a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #dddddd;
+	margin-left: 18px;
+
+}
+
+.menu li a:hover {
+	color: #fff;
+}	
+
+
+.section-menu {
+      background:url(img/menu.png) repeat;
+      height: 48px;
+ }
+
+.menu_r li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #999999;
+	margin-left: 14px;
+	font-weight: bold;
+}
+
+.menu_r nav {
+	float: right;
+	padding: 14px 0 0 0;
+}
+
+.menu_l li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #999999;
+	margin-right: 24px;
+	font-weight: bold;
+}
+
+.menu_l nav {
+	float: left;
+	padding: 14px 0 0 101px;
+}
+.logo {
+	background: url(img/logo1.png) no-repeat;
+	float: left;
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	margin: -16px 0 0 0px;
+
+}
+.logo:hover {
+	background: url(img/logo2.png) no-repeat;
+}
+#budget_vps {
+	background: url(img/bg4.png) repeat center;
+	height: 395px;
+	background-color: #9958cf;
+	
+}
+
+#budget_vps h1 {
+	   font-size: 77px; 
+      margin: 76px 0 0 0px;
+      color: #fff;
+      font-weight: 700;
+      float: left;
+      display: block;
+      text-align: left;
+      width: 800px;
+      line-height: 67px;
+      
+}
+
+#budget_vps .button {
+      background: #ffe36f;
+      color: #a78909;
+      display: block;
+      margin: 65px 0 0 0px;
+      padding: 12px 20px;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 4px;
+      float: left;
+      font-weight: bold;
+      clear: both;
+      font-size: 22px;
+  }
+  #buttons {
+      background:url(img/menu.png) repeat;
+      height: 115px;
+      
+ }
+
+  #buttons .button-1 {
+      background: #fff;
+      color: #555;
+      height: 40px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      font-size: 17px;
+      width: 24%;
+      float: left;
+      display: inline-block;
+      padding-top: 15px
+  }
+     
+ #buttons .button-2 {
+      background: #333;
+      color: #616666;
+      height: 40px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      font-size: 17px; 
+      width: 24%;  
+      float: left;
+      display: inline-block;
+      padding-top: 15px
+      
+  }
+ #buttons .button-3 {
+      background: #333;
+      color: #616666;
+      height: 40px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      font-size: 17px;   
+      width: 24%;
+      float: left;
+      display: inline-block;
+      padding-top: 15px
+      
+  }
+ #buttons .button-4 {
+      background: #333;
+      color: #616666;
+      height: 40px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      font-size: 17px; 
+      width: 24%;  
+      float: left;
+      display: inline-block;
+      padding-top: 15px
+      
+  }
+
+  #buttons .switch a {
+ 	margin: 0 1% 0 0;
+
+ 	
+ }
+ .switch {
+ 	display: block;
+ 	margin-top: 60px;
+ 	
+ }
+
+#buttons .k:hover {
+	color: #818888;
+}
+/* section 4 */
+#content {
+	background-color: #fff;
+	height: 550px;
+}
+.heading {
+	background: url(img/bg-head.jpg);
+	width: 100%;
+	height: 15%;
+	display: block;
+	
+}
+
+.ovz-1 {
+	width: 30%;
+	height: 430px;
+	border: 1px solid #c9c9c9;
+	float: left;
+	margin-top: 60px;
+	display: inline-block;
+}
+.content-head {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 0
+	width: 80%;
+	
+	
+	
+}
+
+.sings {
+	display: inline-block;
+	margin: 7% 1% 1% 25%;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	
+}
+
+.text {
+	display: inline-block;
+	float: left;
+	margin: 5% 0 0 5%;
+	font-size: 25px;
+	color: #fff;
+
+}
+
+.harddisk {
+	display: inline-block;
+	float: left;
+	margin: 4% 0 0 4%;
+	
+
+}
+
+small {
+	font-size: 14px;
+	font-weight: normal;
+	color: #979797
+}
+ .characteristics li {
+	text-decoration: none;
+	display: block;
+	margin: 0 0 0 -20px;
+	font-size: 17px;
+	line-height: 15px;
+}
+
+#content hr {
+	margin: 12px 0 0px -20px;
+	text-align: left;
+	width: 98%;
+
+}
+
+.order-now {
+	  background: #9958cf;
+      color: #fff;
+      display: block;
+      margin: 15px 2% 0 5%;
+      padding: 10px 0 10px 0;
+      text-decoration: none;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 4px;
+      float: left;
+      font-weight: bold;
+      font-size: 19px;
+      width: 90%;
+      
+
+}
+.order-now:hover {
+	background: #7718c6;
+}
+.ovz-2 {
+	width: 30%;
+	height: 430px;
+	border: 1px solid #c9c9c9;
+	float: left;
+	margin-top: 60px;
+	display: inline-block;
+	margin-left: 4%;
+}
+
+.ovz-3 {
+	width: 30%;
+	height: 430px;
+	border: 1px solid #c9c9c9;
+	float: left;
+	margin-top: 60px;
+	display: inline-block;
+	margin-left: 4%;
+}
+
+
+#section_5 {
+	background: url(img/bg5.jpg) repeat;
+	border-top: 1px solid #e5e5e5;
+}
+
+.feature {
+	display: inline-block;
+	margin-top: 90px;
+	width: 45%;
+	float: left;
+}
+.the_icon {
+	display: inline-block;
+	float: left;
+	margin-top: 15px;
+	width: 15%;
+	
+}
+.the_content {
+	display: inline-block;
+	width: 85%;
+	border-bottom: 1px solid #e5e5e5;
+	float: right;
+}
+.the_content h3 {
+	font-weight: normal;
+	color: #3b3b3b;
+	font-size: 19px;
+	margin-bottom: 10px;
+
+}
+.the_content p {
+	color: #888;
+	font-family: Aria, sans-serif;
+	margin-top: 0;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.feature_two {
+	margin-left: 5%;
+	display: inline-block;
+	width: 45%;
+	margin-top: 90px;
+	float: left;
+}
+
+
+.bott {
+	margin-bottom: 130px;
+}
+
+.correction {
+	margin-bottom: 20px;
+}
+
+footer {
+	background: url(img/menu.png) repeat;
+	height: 335px;
+	bottom: 0;
+
+
+}
+
+.information {
+	display: inline-block;
+	margin: 35px 0 0 0;
+	float: left;
+	padding: 0;
+	width: 15%;
+	
+}
+
+h5 {
+	font-size: 17px;
+	color: #fff;
+	font-weight: normal;
+}
+
+
+.main-block p  a {
+	text-decoration: none;
+	color: #5f7777;
+	font-size: 13px;
+	line-height: 5px;
+	
+}
+
+.main-block p a:hover {
+	color: #818888;
+}
+.main-block p {
+	line-height: 10px;
+	
+}
+
+.our_services {
+	display: inline-block;
+	margin: 35px 0 0 10%;
+	float: left;
+	padding: 0;
+	width: 15%;
+	
+}
+.contact {
+	display: inline-block;
+	margin: 35px 0 0 10%;
+	float: left;
+	padding: 0;
+	width: 15%;
+	
+	
+}
+
+.contact h5 {
+	margin-bottom: 20px;
+}
+
+.follow_us {
+	display: inline-block;
+	margin: 35px 0 0 10%;
+	float: left;
+	width: 15%;
+	
+}
+.follow_us h5 {
+	margin-bottom: 20px;
+}
+
+.main-block {
+	border-bottom: 1px solid #454545;
+	padding-bottom: 30px;
+
+}
+
+.pull-left {
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	color: #818888;
+	margin: 20px 0 0 0;
+}
+
+@media (max-width: 1200px) {
+.section-menu {
+	height: 80px;
+}
+.logo {
+	margin-top: 1px;
+}
+.container {
+	width: 85%;
+}
+.sings {
+	margin-left: 10%;
+}
+.our_services {
+	margin-left: 8%;
+}	
+.contact {
+	margin-left: 8%;
+}
+.follow_us {
+	margin-left: 9%;
+}	
+.the_icon {
+	width: 17%;
+	
+}
+.the_content {
+	width: 83%;
+}
+@media (max-width: 1100px) {
+.characteristics li {
+	font-size: 16px;
+}	
+.main-block p  a { 
+	font-size: 13px;
+
+}
+.the_icon {
+	width: 20%;
+	
+}
+.the_content {
+	width: 80%;
+}
+.container {
+	width: 90%;
+}
+}	
+
+@media (max-width: 1000px) {
+.container {
+	width: 75%;
+}	
+.section-menu {
+	height: 140px;
+}
+.logo {
+	margin-top: 25px;
+}
+.menu_l li a {
+	margin-right: 35px;
+	line-height: 40px;
+}
+#budget_vps h1 {
+text-align: center;	
+width: 92%;
+}
+#budget_vps .button {
+      background: #ffe36f;
+      color: #a78909;
+      display: block;
+      margin: 65px 0 0 300px;
+      padding: 12px 20px;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 4px;
+      float: left;
+      font-weight: bold;
+      clear: both;
+      font-size: 22px;
+  }
+#budget_vps { 
+height: 450px; 
+}
+.characteristics li {
+	font-size: 16px;
+	line-height: 20px;
+		
+}
+
+#content .harddisk {
+	display: none;
+}
+
+.text {
+	margin: 5% 0 0 20%;
+}
+#content {
+	height: 600px;
+}
+.ovz-1, .ovz-2, .ovz-3 {
+	height: 470px;
+}
+
+.the_icon {
+	width: 25%;
+	
+}
+.the_content {
+	width: 75%;
+	
+}
+.the_content  p {
+	font-size: 16px;
+}
+.follow_us {
+	margin: 35px 0 0 10%;
+	float: left;
+	width: 15%;
+	
+}
+.main-block p a {
+	font-size: 15px;
+}
+.our_services {
+	margin: 35px 0 0 10%;
+	width: 20%;
+	
+}
+.contact {
+	margin: 35px 0 0 8%;
+	width: 22%;
+}
+.pull-left {
+	font-size: 15px;
+}
+}
+
+@media only screen and(max-width: 800px), 
+only screen and (max-device-width: 800px) {
+
+#budget_vps h1 {
+	   font-size: 45px; 
+      margin: 76px 0 0 30px;
+      text-align: center;
+      width: 100%;
+ 
+      
+}
+#budget_vps .button {
+      padding: 5px 5px; 
+      font-size: 20px;
+      margin-left: 350px;
+  }
+
+.container {
+	width: 85%;
+}	
+
+#budget_vps {
+	height: 270px;
+}
+.section-menu li a {
+	font-size: 18px;
+}
+header .menu li a {
+	font-size: 15px;
+}
+
+ #buttons .switch a {
+ 	font-size: 19px;
+}
+}
+
+@media only screen and(max-width: 767px), 
+only screen and (max-device-width: 767px) {
+.menu .none {
+	display: none;
+}	
+.ovz-1 {
+	width: 100%;
+	max-width: 100%
+}
+.ovz-2 {
+	width: 100%;
+	margin-left: 0;
+	max-width: 100%
+}
+.ovz-3 {
+	width: 100%;
+	margin-left: 0;
+	max-width: 100%
+}
+#content {
+	height: 1700px;
+}
+
+.sings {
+	margin: 3% 1% 1% 70%;
+	font-size: 20px;	
+}
+
+.text {
+	margin: 3% 0 0 5%;
+	font-size: 27px;;
+}
+.feature {
+	clear: both;
+	width: 100%;
+	margin-top: 0;
+}
+
+.feature_two {
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+}
+.the_icon {
+	display: inline-block;
+	float: left;
+	margin-top: 15px;
+	width: 10%;
+	
+}
+.the_content {
+	display: inline-block;
+	width: 90%;
+	border-bottom: 1px solid #e5e5e5;
+	float: right;
+}
+.bott {
+	margin-bottom: 0;
+}
+
+.correction {
+	margin-bottom: 0;
+}
+#section_5 {
+	height: 700px;
+}
+.main-block-1 {
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+
+.main-block-2 {
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+.information {
+	margin: 35px 0 0 0;
+	width: 40%;
+
+	
+}
+.our_services {
+	margin: 35px 0 0 10%;
+	width: 40%;
+	
+}
+.contact {
+	margin: 35px 0 0 0;
+	width: 40%;
+	
+}
+.follow_us {
+	margin: 35px 0 0 10%;
+	width: 40%;
+	
+}
+footer {
+	height: 550px;
+}
+.pull-left {
+	margin-top: 20px;
+}
+.main-block {
+	padding-bottom
+}
+.menu_l, .menu_r {
+	display: none;
+}
+.section-menu {
+	height: 50px;
+}
+.logo {
+	margin-top: -15px;
+}
+}
+
+@media only screen and(max-width: 700px), 
+only screen and (max-device-width: 700px) {
+	.container {
+		width: 90%;
+	}
+#budget_vps h1 {
+	  font-size: 40px; 
+      margin: 40px 0 0 0px;
+      width: 100%;
+ 
+      
+}
+#budget_vps .button { 
+      font-size: 20px;
+     margin-left: 40%;
+     margin-top: 10px;
+  }
+
+
+#budget_vps {
+	height: 270px;
+}
+}
